@@ -24,7 +24,7 @@ const Header = () => {
                 <VideoCallIcon className="header-icon" />
                 <AppsIcon className="header-icon" />
                 <NotificationsIcon className="header-icon" />
-                <Avatar className="header-icon" />
+                <Avatar className="header-icon avatar" />
             </div>
         </div>
     )

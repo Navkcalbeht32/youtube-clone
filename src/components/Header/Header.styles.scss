@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    padding: 14px;
     border-bottom: 1px solid #dadada;
     position: sticky;
     background-color: #fff;
@@ -32,10 +32,13 @@
 
     .header-input-button {
         width: 50px !important;
-        padding: 3px 0;
+        height: 20px !important;
+        padding: 5px 0;
         background-color: #fafafa;
         border-left: 1px solid lightgray;
         color: gray;
+
+        
     }
 
     .header-icons {
@@ -43,7 +46,14 @@
         align-items: center;
 
         .header-icon {
-            margin-right: 10px;
+            margin-right: 16px;
+            height: 26px;
+            width: 26px;
+        }
+
+        .avatar {
+            height: 32px;
+            width: 32px;
         }
     }
 }
