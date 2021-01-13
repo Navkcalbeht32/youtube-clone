@@ -66,10 +66,9 @@ const Sidebar = () => {
                     <a href=""><h5>Test New Features</h5></a>
                 </div>
                 <div className="footer-wrap copy">
-                    &#169; Google LLC
+                    &#169; 2021 Google LLC
                 </div>
             </div>
-            <hr/>
         </div>
     )
 }
