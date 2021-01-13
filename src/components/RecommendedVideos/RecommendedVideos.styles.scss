@@ -1,7 +1,15 @@
 .recommended-videos {
-    width: 80%;
-    height: 40px;
-    margin-left: auto;
-    position: relative;
-    
+    width: 100%;
+    height: 100vh;
+    padding: 24px 0;
+    margin-left: 72px;
+    background-color: #f9f9f9;
+
+    .recommended-videos-videos {
+        padding: 20px 40px;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        flex-flow: wrap;
+    }
 }

@@ -1,0 +1,40 @@
+.video-card {
+    width: 270px;
+    height: fit-content;
+    margin-bottom: 40px;
+
+    .thumbnail-image {
+        width: 250px;
+        height: 140px;
+    }
+
+    .video-info {
+        display: flex;
+    }
+
+    .video-avatar {
+        margin-top: 12px;
+        margin-right: 12px;
+        height: 30px !important;
+        width: 30px !important;
+    }
+
+    .video-text {
+        padding-right: 20px;
+
+        h4 {
+            margin: 12px 0 6px 0;
+            font-size: 15px;
+        }
+
+        h5 {
+            font-size: 14px;
+            font-weight: 300;
+        }
+
+        p {
+            font-size: 14px;
+        }
+    }
+    
+}
