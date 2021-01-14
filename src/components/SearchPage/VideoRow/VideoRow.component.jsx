@@ -11,7 +11,7 @@ const VideoRow = ({ views, subscribers, description, timestamp, channel, channel
                 <img src={image} alt={title} className="video-thumbnail" />
                 <div className="video-row-text">
                     <h3>{title}</h3>
-                    <h5>{views} views • {timestamp} ago</h5>
+                    <h5>{views} views • {timestamp}</h5>
                     <Link className="channel">
                         <Avatar className="channel-image" src={channelImage} />
                         <h5>{channel}</h5>
