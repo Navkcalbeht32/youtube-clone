@@ -64,11 +64,11 @@ const useStyles = makeStyles({
         onClick={toggleDrawer(anchor, false)}
         onKeyDown={toggleDrawer(anchor, false)}
       >
-        <List className="sidebar">
+        <List disablePadding className="sidebar">
             <div className="header">
                 <div className="header-left">
                 
-                <TemporaryDrawer />
+                <MenuIcon className="menu-icon" />
                 <img
                 className="header-logo" 
                 src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt=""/>

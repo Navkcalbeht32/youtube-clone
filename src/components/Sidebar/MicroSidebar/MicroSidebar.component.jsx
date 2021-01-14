@@ -7,14 +7,15 @@ import SubscriptionsIcon from '@material-ui/icons/Subscriptions';
 import VideoLibraryIcon from '@material-ui/icons/VideoLibrary';
 import HistoryIcon from '@material-ui/icons/History';
 
+
 const MicroSidebar = () => {
-    return (
+    return (  
         <div className="micro-sidebar">
             <MicroRow selected Icon={HomeIcon} title="Home" />
             <MicroRow Icon={WhatshotIcon} title="Trending" />
             <MicroRow Icon={SubscriptionsIcon} title="Subscriptions" />
             <MicroRow Icon={VideoLibraryIcon} title="Library" />
-            <MicroRow Icon={HistoryIcon} title="Histroy" />
+            <MicroRow Icon={HistoryIcon} title="History" />
         </div>
     )
 }

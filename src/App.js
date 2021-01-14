@@ -9,9 +9,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      
       <div className="app-page">
-        
         <MicroSidebar />
         <RecommendedVideos />
       </div>
