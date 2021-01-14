@@ -146,7 +146,7 @@ const RecommendedVideos = () => {
                 <Grid item xs={12} sm={6} md={4} lg={3} xl={2}>
                     <VideoCard 
                         image="https://i.ytimg.com/vi/nVGYXFGaLqk/maxresdefault.jpg"
-                        title="A. VIVALDI: Concerto for 2 Violins and Cello in D minor Op. 3/11 RV 565, Akademie für Alte Musik"
+                        title="A. VIVALDI: Concerto for 2 Violins and Cello in D minor Op. 3/11 RV 565"
                         views="3M"
                         channel="Ispirazione Barocca"
                         channelImage="https://yt3.ggpht.com/ytc/AAUvwngifgevYsY6z6ba8w8s9Q_C3SMl8j2f1e5kOUIjlg=s48-c-k-c0xffffffff-no-rj-mo"

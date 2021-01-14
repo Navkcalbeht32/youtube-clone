@@ -57,10 +57,11 @@
     .header-input-button {
         width: 65px !important;
         height: 20px !important;
-        padding: 6px 0;
+        padding: 6px 0 6px 0;
         background-color: #fafafa;
         border-left: 1px solid lightgray;
         color: gray;
+        float: right;
     }
 
     .header-input-button:hover {
