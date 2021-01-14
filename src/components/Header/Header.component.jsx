@@ -6,12 +6,14 @@ import VideoCallIcon from '@material-ui/icons/VideoCall';
 import NotificationsIcon from '@material-ui/icons/Notifications';
 import AppsIcon from '@material-ui/icons/Apps';
 import Avatar from '@material-ui/core/Avatar';
+import TemporaryDrawer from '../Sidebar/Drawer';
 
 const Header = () => {
     return (
         <div className="header">
             <div className="header-left">
-                <MenuIcon className="menu-icon" />
+               
+                <TemporaryDrawer />
                 <img
                 className="header-logo" 
                 src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt=""/>
