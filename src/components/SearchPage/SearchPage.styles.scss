@@ -1,7 +1,31 @@
 .search-page {
     width: 100%;
     height: fit-content;
-    padding: 24px 40px;
-    margin-left: 80px;
     background-color: #f9f9f9;
+
+    .search-page-results {
+        padding: 20px 20px 20px 110px;
+        max-width: 1280px;
+        margin: 0 auto;
+
+        .filter {
+            display: flex;
+            align-items: center;
+            color: #505050;
+        }
+    
+        .filter h4 {
+            font-size: 14px;
+            margin-left: 10px;
+        }
+    
+        hr {
+            height: 1px;
+            width: 100%;
+            border: 0;
+            background-color: lightgray;
+            margin: 16px 0;
+        }
+    }
+
 }
