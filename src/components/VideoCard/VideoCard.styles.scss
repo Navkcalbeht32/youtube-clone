@@ -28,12 +28,29 @@
         }
 
         h5 {
-            font-size: 14px;
+            font-size: 15px;
             font-weight: 300;
         }
 
         p {
             font-size: 14px;
+        }
+
+        a img {
+            cursor: pointer;
+        }
+
+        a h4 {
+            color: #3a3a3a;
+        }
+
+        a {
+            color: #000;
+            transition: ease-in-out 0.05s;
+        }
+
+        a:hover {
+            color: rgb(177, 177, 177);
         }
     }
     
