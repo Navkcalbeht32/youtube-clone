@@ -1,7 +1,7 @@
 import React from 'react';
 import './ChannelRow.styles.scss';
 import { Avatar } from '@material-ui/core';
-import VerifiedIcon from '@material-ui/icons/CheckCircleOutlined';
+import VerifiedIcon from '@material-ui/icons/CheckCircle';
 import CustomButton from '../../CustomButton/CustomButton.component';
 import { Link } from 'react-router-dom';
 import NotificationsOutlinedIcon from '@material-ui/icons/NotificationsOutlined';

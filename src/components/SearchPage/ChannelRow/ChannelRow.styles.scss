@@ -21,12 +21,14 @@
         margin-right: 40px;
 
         .verified-tag {
-            height: 18px;
+            height: 16px;
+            color: #878787;
         }
     }
 
     .channel-row-text > h4 {    
         font-size: 18px;
+        font-weight: 500;
         display: flex;
         align-items: center;
         padding-bottom: 8px;

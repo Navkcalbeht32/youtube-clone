@@ -24,10 +24,58 @@ const SearchPage = () => {
                 /> 
 
                 <hr/>
+
+                <VideoRow 
+                image="https://i.ytimg.com/vi/bnzVL0a5h5w/maxresdefault.jpg"
+                title="10 Ways to Make Money as a Developer"
+                views="49k"
+                timestamp="3 days"
+                channelImage="https://yt3.ggpht.com/ytc/AAUvwng963DN2_MIbKuvMWRrN4KG920h3Y4YHg6KET9vZg=s176-c-k-c0x00ffffff-no-rj-mo"
+                channel="Traversy Media"
+                description="10++ Ways to Make Money as a Developer eBook: https://gumroad.com/a/304084083 20% OFF CODE: BRAD20 Timestamps: ..."
+                />
+
+                <VideoRow 
+                image="https://i.ytimg.com/vi/bnzVL0a5h5w/maxresdefault.jpg"
+                title="10 Ways to Make Money as a Developer"
+                views="49k"
+                timestamp="3 days"
+                channelImage="https://yt3.ggpht.com/ytc/AAUvwng963DN2_MIbKuvMWRrN4KG920h3Y4YHg6KET9vZg=s176-c-k-c0x00ffffff-no-rj-mo"
+                channel="Traversy Media"
+                description="10++ Ways to Make Money as a Developer eBook: https://gumroad.com/a/304084083 20% OFF CODE: BRAD20 Timestamps: ..."
+                />
+                
+                <VideoRow 
+                image="https://i.ytimg.com/vi/bnzVL0a5h5w/maxresdefault.jpg"
+                title="10 Ways to Make Money as a Developer"
+                views="49k"
+                timestamp="3 days"
+                channelImage="https://yt3.ggpht.com/ytc/AAUvwng963DN2_MIbKuvMWRrN4KG920h3Y4YHg6KET9vZg=s176-c-k-c0x00ffffff-no-rj-mo"
+                channel="Traversy Media"
+                description="10++ Ways to Make Money as a Developer eBook: https://gumroad.com/a/304084083 20% OFF CODE: BRAD20 Timestamps: ..."
+                />
+                
+                <VideoRow 
+                image="https://i.ytimg.com/vi/bnzVL0a5h5w/maxresdefault.jpg"
+                title="10 Ways to Make Money as a Developer"
+                views="49k"
+                timestamp="3 days"
+                channelImage="https://yt3.ggpht.com/ytc/AAUvwng963DN2_MIbKuvMWRrN4KG920h3Y4YHg6KET9vZg=s176-c-k-c0x00ffffff-no-rj-mo"
+                channel="Traversy Media"
+                description="10++ Ways to Make Money as a Developer eBook: https://gumroad.com/a/304084083 20% OFF CODE: BRAD20 Timestamps: ..."
+                />
+                
+                <VideoRow 
+                image="https://i.ytimg.com/vi/bnzVL0a5h5w/maxresdefault.jpg"
+                title="10 Ways to Make Money as a Developer"
+                views="49k"
+                timestamp="3 days"
+                channelImage="https://yt3.ggpht.com/ytc/AAUvwng963DN2_MIbKuvMWRrN4KG920h3Y4YHg6KET9vZg=s176-c-k-c0x00ffffff-no-rj-mo"
+                channel="Traversy Media"
+                description="10++ Ways to Make Money as a Developer eBook: https://gumroad.com/a/304084083 20% OFF CODE: BRAD20 Timestamps: ..."
+                />
+            
             </div>
-
-            <VideoRow />
-
         </div>
     )
 }
