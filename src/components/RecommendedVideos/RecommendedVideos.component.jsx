@@ -120,6 +120,39 @@ const RecommendedVideos = () => {
                         timestamp="Dec 12, 2017"
                         />
                 </Grid>
+
+                <Grid item xs={12} sm={6} md={4} lg={3} xl={2}>
+                    <VideoCard 
+                        image="https://i.ytimg.com/vi/kJA9rDX7azM/maxresdefault.jpg"
+                        title="How To Connect React To A Backend (Express.js) - React for beginners #7"
+                        views="52,955"
+                        channel="Anthony Sistilli"
+                        channelImage="https://yt3.ggpht.com/ytc/AAUvwnjllj9966c8dxbK3SzydTjPwlXeM6YLuX8rN9kZDg=s48-c-k-c0xffffffff-no-rj-mo"
+                        timestamp="May 18, 2019"
+                        />
+                </Grid>
+
+                <Grid item xs={12} sm={6} md={4} lg={3} xl={2}>
+                    <VideoCard 
+                        image="https://i.ytimg.com/vi/PKwu15ldZ7k/maxresdefault.jpg"
+                        title="React Authentication Crash Course With Firebase And Routing"
+                        views="67,441"
+                        channel="Web Dev Simplified"
+                        channelImage="https://yt3.ggpht.com/ytc/AAUvwnhIz_0Su6HhW6Ym50QCroJCAnF10X9xnnMDboN2=s48-c-k-c0xffffffff-no-rj-mo"
+                        timestamp="Oct 10, 2020"
+                        />
+                </Grid>
+
+                <Grid item xs={12} sm={6} md={4} lg={3} xl={2}>
+                    <VideoCard 
+                        image="https://i.ytimg.com/vi/nVGYXFGaLqk/maxresdefault.jpg"
+                        title="A. VIVALDI: Concerto for 2 Violins and Cello in D minor Op. 3/11 RV 565, Akademie für Alte Musik"
+                        views="3M"
+                        channel="Ispirazione Barocca"
+                        channelImage="https://yt3.ggpht.com/ytc/AAUvwngifgevYsY6z6ba8w8s9Q_C3SMl8j2f1e5kOUIjlg=s48-c-k-c0xffffffff-no-rj-mo"
+                        timestamp="Jan 13, 2017"
+                        />
+                </Grid>
         
             </Grid>
         </div>

@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
 }
 
 a {
@@ -20,4 +21,17 @@ textarea:focus, input:focus{
 
 .app-page {
   display: flex;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+  
+}
+
+::-webkit-scrollbar-thumb {    
+  background-color: #dadada;
 }
