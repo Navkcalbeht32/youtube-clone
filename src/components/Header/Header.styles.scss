@@ -9,7 +9,7 @@
     top: 0;
     z-index: 100;
 
-    .header-left {
+    &-left {
         height: 40px;
         display: flex;
         align-items: center;
@@ -31,7 +31,7 @@
 
     }
     
-    .header-input {
+    &-input {
         display: flex;
         align-items: center;
         width: 50%;
@@ -41,37 +41,38 @@
         height: 32px;
         border-radius: 2px;
         box-shadow: inset 0 1px 2px #eee;
-    }
 
-    .header-input > input {
-        flex: 1;
-        border: none;
-        font-size: 16px;
-    }
+        &> input {
+            flex: 1;
+            border: none;
+            font-size: 16px;
+        }
 
-    .header-input:focus-within {
-        box-shadow: inset 0 1px 4px #dadada;
-        border: 1px solid #065fd4;
-    }
+        &:focus-within {
+            box-shadow: inset 0 1px 4px #dadada;
+            border: 1px solid #065fd4;
+        }
 
-    .header-input-button {
-        width: 65px !important;
-        height: 20px !important;
-        padding: 6px 0 6px 0;
-        background-color: #fafafa;
-        border-left: 1px solid lightgray;
-        color: gray;
-        float: right;
-    }
+        &-button {
+            width: 65px !important;
+            height: 20px !important;
+            padding: 6px 0 6px 0;
+            background-color: #fafafa;
+            border-left: 1px solid lightgray;
+            color: gray;
+            float: right;
 
-    .header-input-button:hover {
-        background-color: #f0f0f0;
-        border-left: 1px solid lightgray;
-        color: #222222;
-        cursor: pointer;
+            &:hover {
+                background-color: #f0f0f0;
+                border-left: 1px solid lightgray;
+                color: #222222;
+                cursor: pointer;
+            }
+        }
     }
+    
 
-    .header-icons {
+    &-icons {
         display: flex;
         align-items: center;
 
@@ -85,5 +86,21 @@
             height: 32px;
             width: 32px;
         }
+    }
+
+
+    &-mobile-icons {
+        display: none;
+    }
+}
+
+
+@media(max-width: 1000px) {
+    .header-icons {
+        display: none;
+    }
+
+    .header-mobile-icons {
+        display: flex;
     }
 }

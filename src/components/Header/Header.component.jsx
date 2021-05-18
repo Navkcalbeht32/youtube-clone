@@ -45,6 +45,10 @@ const Header = () => {
                 <Avatar className="header-icon avatar" />
                 <div className="g-signin2" data-onsuccess="onSignIn" ></div>
             </div>
+            <div className="header-mobile-icons">
+                <Avatar className="header-icon avatar" />
+            </div>
+
 
             
         </div>
